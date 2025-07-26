@@ -32,6 +32,10 @@
     transform: scale(0.8) translateY(20px);
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 26px;
+    margin: 7px auto 0;
 }
 
 .security-modal-overlay.show .security-modal-container {
