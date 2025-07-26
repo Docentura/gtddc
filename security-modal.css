@@ -42,24 +42,15 @@
     transform: scale(1) translateY(0);
 }
 
-.security-modal-header {
-    background: #ffffff;
-    padding: 30px 0 20px 0;
-    text-align: center;
-    border-bottom: 1px solid #1d1d1f;
-    display: flex;
-    flex-direction: column;
-}
-
 .apple-logo {
-    aspect-ratio: 1.95;
+    aspect-ratio: 1.1;
     object-fit: cover;
     object-position: center;
-    width: 55px;
-    min-height: 30px;
+    width: 50px;
+    min-height: 20px;
     min-width: 20px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .security-modal-second-image {
@@ -67,10 +58,11 @@
     object-fit: cover;
     object-position: center;
     width: 100%;
-    margin-top: 20px;
     min-height: 20px;
     min-width: 20px;
     overflow: hidden;
+    max-width: 394px;
+    margin: 20px auto 0;
 }
 
 .security-modal-content {
