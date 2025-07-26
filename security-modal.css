@@ -100,12 +100,12 @@
 
 .detail-label {
     font-weight: 700;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .detail-value {
     font-weight: 600;
-    color: #000000;
+    color: #000000 !important;
     text-align: right;
 }
 
