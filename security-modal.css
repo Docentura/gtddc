@@ -69,12 +69,13 @@
     padding: 30px;
     text-align: center;
     background: #ffffff;
+    margin-top: 113px;
 }
 
 .security-modal-title {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
     color: #dc3545;
     margin: 0 0 15px 0;
     line-height: 1.3;
